@@ -35,3 +35,8 @@ switch (nilai) {
   default:
     break;
 }
+
+//Uji Coba Library
+let text = require("lodash")
+
+console.log(text.camelCase("agis satria mandala"))
