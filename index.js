@@ -37,6 +37,26 @@ switch (nilai) {
 }
 
 //Uji Coba Library
-let text = require("lodash")
+let text = require("lodash");
 
-console.log(text.camelCase("agis satria mandala"))
+console.log(text.camelCase("agis satria mandala"));
+
+//Array, Object, Looping dan Fungsi
+
+let arrayAbsen = ["Agis", "Satria", "Mandala"];
+
+function print(parameter) {
+  for(const name of parameter){
+    console.log(name)
+  }
+}
+
+print(arrayAbsen)
+
+const mahasiswa = {
+  firstName: 'Agis',
+  middleName: 'Satria',
+  lastName: 'Mandala'
+}
+
+console.log(mahasiswa)
