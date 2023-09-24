@@ -46,17 +46,17 @@ console.log(text.camelCase("agis satria mandala"));
 let arrayAbsen = ["Agis", "Satria", "Mandala"];
 
 function print(parameter) {
-  for(const name of parameter){
-    console.log(name)
+  for (const name of parameter) {
+    console.log(name);
   }
 }
 
-print(arrayAbsen)
+print(arrayAbsen);
 
 const mahasiswa = {
-  firstName: 'Agis',
-  middleName: 'Satria',
-  lastName: 'Mandala'
-}
+  firstName: "Agis",
+  middleName: "Satria",
+  lastName: "Mandala",
+};
 
-console.log(mahasiswa)
+console.log(mahasiswa);
